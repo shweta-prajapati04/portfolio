@@ -13,7 +13,7 @@ export const Home = () => {
         <div className="d-flex flex-column">
 
           <div className="profile">
-            <img src="src/assets/img/profile-img.jpg" alt="" className="img-fluid rounded-circle" />
+            <img src="/img/profile-img.jpg" alt="" className="img-fluid rounded-circle" />
             <h1 className="text-light"><a href="index.html">Shweta Prajapati</a></h1>
             <div className="social-links mt-3 text-center">
 
@@ -82,7 +82,7 @@ export const Home = () => {
             <div className="row">
               <div className="col-lg-4" data-aos="fade-right">
                 <img
-                  src="src/assets/img/abt.jfif"
+                  src="/img/abt.jfif"
                   className="img-fluid" alt="" />
               </div>
               <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
@@ -278,7 +278,7 @@ export const Home = () => {
 
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
                 <div className="portfolio-wrap">
-                  <img src="src/assets/img/portfolio/liberty1.png" class="img-fluid" alt="" />
+                  <img src="/img/portfolio/liberty1.png" class="img-fluid" alt="" />
                   <div className="portfolio-links text-center">
                     <a href="https://libertyshoes.vercel.app/" target='blank' title="visit libertyshoes"><i className="bx bx-link"></i></a>
                   </div>
@@ -313,10 +313,10 @@ export const Home = () => {
                 </div>
                 <div className="d-flex justify-content-center contact-icoon" >
                   <a href="https://github.com/shweta-prajapati04" target="_blank"><img
-                    src="src/assets/img/github.svg" alt="Github" /></a>
+                    src="/img/github.svg" alt="Github" /></a>
                   <a href="https://linkedin.com/in/shweta-prajapati-a4598a4b" target="_blank"><img
-                    src="src/assets/img/linkedin.svg" alt="Linkdin" /></a>
-                  <a href="mailto:shwetarprajapati@gmail.com" target="_blank"><img src="src/assets/img/gmail.svg"
+                    src="/img/linkedin.svg" alt="Linkdin" /></a>
+                  <a href="mailto:shwetarprajapati@gmail.com" target="_blank"><img src="/img/gmail.svg"
                     alt="Email" /></a>
                 </div>
                 <h4 className='text-red' style={{ color: "#e67171" }}> <b>THANK YOU !</b></h4>

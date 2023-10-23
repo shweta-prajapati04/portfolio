@@ -23,6 +23,8 @@ export const Home = () => {
                 className="bx bxl-linkedin"></i></a>
               <a target="_blank" href="mailto:shwetarprajapati@gmail.com" className="google-plus"><i
                 className="bx bxl-gmail"></i></a>
+              <a href="/img/cv.pdf" target="_blank"><i
+              className="bx bxs-file-pdf"> </i></a>
             </div>
           </div>
 
@@ -88,9 +90,11 @@ export const Home = () => {
               <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                 <h3>Front End &amp; Web Developer.</h3>
                 <p className="fst-italic">
-                  I'm a front end developer with five years of experience in web development. I've worked on a variety of
-                  projects for clients in the retail, travel, and healthcare industries. I'm passionate about creating great
-                  user experiences and have a strong understanding of usability and accessibility standards.
+                  I'm a front end developer with five years of experience in web development. As senior web developer i built E-commerce applications
+                  with cart and payment gateway,CMSsites,Product listing
+                  application,some static SPA using Js , html 5 ,css3 bootstrap
+                  jquery & it’s framework .
+                  I also create  webservices API for Mobile Applications
                 </p>
                 <p>
                   I have complete React Js Course and build some small applications like Todo List , Arithmatic operation
@@ -277,12 +281,21 @@ export const Home = () => {
             <div className="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
               <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div className="portfolio-wrap">
+
+
+                <div className="portfolio-wrap" >
+
                   <img src="/img/portfolio/liberty1.png" class="img-fluid" alt="" />
                   <div className="portfolio-links text-center">
-                    <a href="https://libertyshoes.vercel.app/" target='blank' title="visit libertyshoes"><i className="bx bx-link"></i></a>
+
+                    <a href="https://libertyshoes.vercel.app/" target='blank' title="visit libertyshoes">
+                      <i className="bx bx-link" > <span style={{ fontSize: "20px", position: "relative" }}>  </span></i>
+                    </a>
                   </div>
+
                 </div>
+
+
               </div>
 
 
@@ -318,6 +331,8 @@ export const Home = () => {
                     src="/img/linkedin.svg" alt="Linkdin" /></a>
                   <a href="mailto:shwetarprajapati@gmail.com" target="_blank"><img src="/img/gmail.svg"
                     alt="Email" /></a>
+                  <a href="/img/cv.pdf" target="_blank"><img src="/img/cv.svg"
+                    alt="Download CV" /></a>
                 </div>
                 <h4 className='text-red' style={{ color: "#e67171" }}> <b>THANK YOU !</b></h4>
 

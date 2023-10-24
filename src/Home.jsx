@@ -331,7 +331,7 @@ export const Home = () => {
                     src="/img/linkedin.svg" alt="Linkdin" /></a>
                   <a href="mailto:shwetarprajapati@gmail.com" target="_blank"><img src="/img/gmail.svg"
                     alt="Email" /></a>
-                  <a href="/img/cv.pdf" target="_blank"><img src="/img/cv.svg"
+                  <a href="/img/cv.pdf" target="_blank"><img src="/img/cvicon.svg"
                     alt="Download CV" /></a>
                 </div>
                 <h4 className='text-red' style={{ color: "#e67171" }}> <b>THANK YOU !</b></h4>
